@@ -77,3 +77,32 @@
     background-color: #0a8181;
   }
 }
+
+h4 {
+    color: black;
+    
+}
+
+input {
+    color: black;
+}
+
+.jumbotron p {
+    color: black;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    color: black;
+    text-align: center;
+    
+}
+
+.jumbotron {
+    float: none; 
+    margin: 0 auto;
+}
+
+label {
+    color: black;
+}
