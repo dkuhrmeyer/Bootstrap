@@ -86,3 +86,7 @@
   height: 500px;
   max-width: none;
 }
+
+#tourneyInfoMap {
+  margin-bottom: 5px;
+}
