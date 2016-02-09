@@ -3,10 +3,53 @@
       width: 100%;
   }
 
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
+nav {
+    z-index: 1;
+}
 
+body {
+    position: relative;
+}
+
+#section1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #ff9800;
+}
+
+#section41 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#section42 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #009688;
+}
 
 .navbar-default {
   background-color: #050876;
@@ -119,6 +162,10 @@ label {
 
 #rulesList {
   color: black;
+}
+
+#myEmail {
+    color: white;
 }
 
 .well {
