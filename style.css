@@ -105,7 +105,8 @@ input {
 }
 
 label {
-    color: black;
+  color: black;
+}
 
 .carousel img {
   position: relative;
@@ -116,7 +117,6 @@ label {
   max-width: none;
 }
 
-#tourneyInfoMap {
-  margin-bottom: 5px;
-
+#rulesList {
+  color: black;
 }
