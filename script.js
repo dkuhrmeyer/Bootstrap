@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#registerSubmitBtn').click(function(){
         $('#registerAlert').show();
     });
-    $('[data-spy="scroll"]').each(function () {
-     var $spy = $(this).scrollspy('refresh')
-  });
+  //  $('[data-spy="scroll"]').each(function () {
+  //   var $spy = $(this).scrollspy('scroll')
+  //});
 });
