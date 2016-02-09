@@ -1,3 +1,7 @@
 $(document).ready(function() {
-    $('#myCarousel').carousel();
-})
+    //$('#myCarousel').carousel();
+    $('#registerAlert').hide();
+    $('#registerSubmitBtn').click(function(){
+        $('#registerAlert').show();
+    });
+});

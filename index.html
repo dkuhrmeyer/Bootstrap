@@ -16,6 +16,7 @@
               #section41 {padding-top:50px;padding-bottom:50px;height:auto;color: #fff; background-color: #00bcd4;}
               #section42 {padding-top:50px;padding-bottom:50px;height:auto;color: #fff; background-color: #009688;}
         </style>
+        <script src="script.js"></script>
     </head><body data-spy="scroll" data-target=".navbar" data-offset="10">
         <div class="container">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -99,7 +100,7 @@
  
 </div>
 <div class="container-fluid text-center" id="section2">
-    <div class="container">
+    <div class="row"><div class="col-md-12"><div class="alert alert-dismissable alert-success" id="registerAlert"><button contenteditable="false" type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><strong>Thank you!</strong> Your registration has been recieved!</div></div></div><div class="container">
   <h1>Tourney Info</h1>
     <div class="container">
   <div class="jumbotron">
@@ -132,7 +133,7 @@
   </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal" data-target="#registerAlert" id="registerSubmitBtn">Submit</button>
         </div>
       </div>
       
